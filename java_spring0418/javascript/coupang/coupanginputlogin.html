@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function cocoupanginpurlogin() {
+
+
+
+
+            var frm = document.coupanginpurlogin;
+
+            console.log('아이디:' + frm.id.value)
+            console.log('비밀번호:' + frm.pw.value)
+            console.log('비밀번호확인:' + frm.repw.value)
+            console.log('이름:' + frm.name.value)
+            console.log('휴대폰번호:' + frm.phone.value)
+
+            window.alert(frm.id.value);
+            window.alert(frm.pw.value);
+            window.alert(frm.repw.value);
+            window.alert(frm.name.value);
+            window.alert(frm.phone.value);
+
+
+
+        }
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <form name="coupanginpurlogin">
+
+
+        아이디<input type="text" name="id"><br>
+        비밀번호<input type="password" name="pw"><br>
+        비밀번호 확인<input type="password" name="repw"><br>
+        이름<input type="text" name="name"><br>
+        휴대폰번호<input type="text" name="phone">
+
+        <input type="button" value="확인" onclick="cocoupanginpurlogin()">
+    </form>
+
+</body>
+
+</html>

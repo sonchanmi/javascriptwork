@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+ scripth
+
+    <script>
+
+        function CoupangLogin() {
+            var frm = document.coupanglogin;
+            frm.method = "get";
+            frm.action = "/java_spring0417/form/coupangnext.html";
+            frm.submit();
+        }
+
+    </script>
+
+
+</head>
+
+
+<body>
+
+    <!-- table>tr*4>td*2>input:text -->
+
+
+    <!-- parameter(파라미터값): 파라미터값은 반드시 form 안에 있어야 한다 -->
+
+
+    <form name="coupanglogin">
+
+        <table border="1" align="center" width="600" height="600">
+            <tr>
+                <td>아이디</td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>비밀번호</td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="" onclick="CoupangLogin()" value="로그인">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="" onclick="CoupangLogin()" value="회원가입">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

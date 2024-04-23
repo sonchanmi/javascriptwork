@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+
+function Address() {
+
+    var frm=document.address;
+    
+    console.log('이름:'+frm.name.value)
+    console.log('번호:'+frm.phone.value)
+    console.log('이름:'+frm.email.value)
+
+ alert(frm.name.value);
+ alert(frm.phone.value);
+ alert(frm.email.value);
+
+}
+
+</script>
+
+</head>
+<body>
+    
+<form name="address">
+
+이름<input type="text" name="name" >
+번호<input type="text" name="phone">
+이메일<input type="text" name="email">
+<input type="button" value="확인" onclick="Address()">
+
+
+</form>
+
+
+
+</body>
+</html>

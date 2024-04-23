@@ -1,0 +1,5 @@
+function Print(){
+
+    alert('print');
+
+}
